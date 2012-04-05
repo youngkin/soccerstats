@@ -1,0 +1,3 @@
+Welcome to my initial git repo for SoccerStats
+----------------------------------------------------------------
+Still nothing here yet...
