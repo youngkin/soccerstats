@@ -1,3 +1,3 @@
-Welcome to my initial git repo for SoccerStats
+Welcome to SoccerStats For Parents
 ----------------------------------------------------------------
-Still nothing here yet...
+Welcome to SoccerStats For Parents on BitBucket
