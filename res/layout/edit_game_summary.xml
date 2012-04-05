@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent" android:layout_height="fill_parent"
+   android:orientation="vertical">
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+      <TextView android:text="@string/gameDate" 
+                android:layout_height="wrap_content" 
+                android:layout_width="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="39sp"/>
+      <TextView android:id="@+id/gameDate" 
+                android:paddingLeft="10sp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/testDate"/>    
+   </LinearLayout>
+             
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+      <TextView android:text="@string/ourTeamName"
+                android:layout_height="wrap_content" 
+                android:layout_width="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"/>
+      <TextView android:id="@+id/editUs" 
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:paddingBottom="20sp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/testTeamName"/>
+   </LinearLayout>
+             
+   <TextView android:text="@string/theirTeamname" 
+             android:layout_height="wrap_content" 
+             android:layout_width="fill_parent"
+             android:paddingLeft="10sp"
+             android:paddingRight="10sp"/>
+   <EditText android:id="@+id/editThem"
+             android:paddingLeft="10sp"
+             android:paddingRight="10sp"
+             android:layout_width="fill_parent" 
+             android:layout_height="wrap_content"
+             android:inputType="textCapWords"
+             android:imeOptions="actionDone"/>
+   
+   <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/gameID"
+             android:layout_width="0dip"
+             android:layout_height="wrap_content"
+             android:visibility="gone">
+   </TextView>
+
+   <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/gameID"
+             android:layout_width="fill_parent"
+             android:layout_height="40dp">
+   </TextView>
+
+   <LinearLayout android:layout_width="fill_parent" 
+                 android:layout_height="60dp"
+                 android:orientation="horizontal"
+                 android:gravity="center"
+                 android:paddingRight="4dip">
+      <Button android:text="@string/ok"
+              android:gravity="center"
+              android:layout_width="fill_parent"  
+              android:layout_height="fill_parent"
+              android:id="@+id/ok" 
+              android:layout_weight="1"/>
+      <Button android:text="@string/deleteGame"
+              android:gravity="center"
+              android:layout_width="fill_parent" 
+              android:layout_height="fill_parent" 
+              android:id="@+id/delete" 
+              android:layout_weight="1"/>
+      <Button android:text="@string/cancel" 
+              android:gravity="center"
+              android:id="@+id/cancel" 
+              android:layout_weight="1" 
+              android:layout_height="fill_parent"
+              android:layout_width="fill_parent"/>
+   </LinearLayout>
+   
+   <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/gameID"
+             android:layout_width="fill_parent"
+             android:layout_height="20dp">
+   </TextView>
+
+</LinearLayout>

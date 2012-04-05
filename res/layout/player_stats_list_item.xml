@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+   <TableRow>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/playerJerseyNumber"
+                style="@style/ContentText"
+                android:layout_weight="1"
+                android:text="@string/testJerseyNo"
+                android:gravity="right" 
+                android:layout_height="35dp" 
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="8dip"
+                android:singleLine="true">
+      </TextView>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/playerName"
+                style="@style/ContentText"
+                android:layout_weight="2"
+                android:text="@string/testPlayerName"
+                android:layout_height="35dp" 
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:gravity="left"
+                android:singleLine="true">
+      </TextView>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/playerTimeOnField"
+                style="@style/ContentText"
+                android:layout_weight="1.2"
+                android:layout_height="35dp" 
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:text="00:00"
+                android:gravity="center"
+                android:singleLine="true">
+      </TextView>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/playerGoals"
+                style="@style/ContentText"
+                android:layout_weight="1"
+                android:text="@string/testPlayerStats"
+                android:gravity="right" 
+                android:layout_height="35dp" 
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="7dip"
+                android:singleLine="true">
+      </TextView>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/playerSOGs"
+                style="@style/ContentText"
+                android:layout_weight="1"
+                android:text="@string/testPlayerStats"
+                android:layout_height="35dp" 
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:gravity="right"
+                android:singleLine="true">
+      </TextView>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/playerAssists"
+                style="@style/ContentText"
+                android:layout_weight="1"
+                android:text="@string/testPlayerStats"
+                android:layout_height="35dp" 
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:gravity="right"
+                android:singleLine="true">
+      </TextView>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/playerSaves"
+                style="@style/ContentText"
+                android:layout_weight="1"
+                android:text="@string/testPlayerStats"
+                android:layout_height="35dp" 
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:gravity="right"
+                android:singleLine="true">
+      </TextView>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/playerGoalsAllowed"
+                style="@style/ContentText"
+                android:layout_weight="1.1"
+                android:text="@string/testPlayerStats"
+                android:gravity="right" 
+                android:layout_height="35dp" 
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="8dip"
+                android:singleLine="true">
+      </TextView>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/playerID"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:visibility="gone"
+                android:layout_weight="0"
+                android:singleLine="true">
+      </TextView>
+   </TableRow>
+</TableLayout>

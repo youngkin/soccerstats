@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+   <TableRow>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:text="@string/testDate"
+                style="@style/ContentText"
+                android:layout_height="35dp"
+                android:layout_weight="1.4"
+                android:paddingRight="10dp"
+                android:paddingLeft="0dp"
+                android:gravity="center" 
+                android:id="@+id/gameDate"
+                android:singleLine="true">
+      </TextView>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/ContentText"
+                android:layout_height="35dp"
+                android:layout_weight="1.6"
+                android:paddingLeft="10dp"
+                android:text="@string/testTeamName"
+                android:gravity="left" 
+                android:id="@+id/opponent"
+                android:singleLine="true">
+      </TextView>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:text="@string/testGameScore"
+                style="@style/ContentText"
+                android:layout_height="35dp"
+                android:layout_weight="1.1"
+                android:paddingLeft="10dp"
+                android:gravity="center" 
+                android:id="@+id/score"
+                android:singleLine="true">
+      </TextView>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:text="@string/testGameSog"
+                style="@style/ContentText"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:gravity="center" 
+                android:id="@+id/shots_on_goal"
+                android:singleLine="true">
+      </TextView>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/gameID"
+                android:layout_height="35dp"
+                android:layout_width="0dip"
+                android:visibility="gone"
+                android:singleLine="true">
+      </TextView>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/teamName"
+                android:layout_height="35dp"
+                android:layout_width="0dip"
+                android:visibility="gone"
+                android:singleLine="true">
+      </TextView>
+   </TableRow>
+</TableLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent" android:layout_height="fill_parent"
+   android:orientation="vertical">
+   <TextView android:text="@string/ourTeamName"
+             android:layout_height="wrap_content" 
+             android:layout_width="fill_parent"
+             android:paddingLeft="10sp"
+             android:paddingRight="10sp"/>
+   <Spinner  android:id="@+id/chooseOurTteam"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:prompt="@string/ourTeamName"
+             android:gravity="center"/>
+             
+   <TextView android:text="@string/theirTeamname" 
+             android:layout_height="wrap_content" 
+             android:layout_width="fill_parent"
+             android:paddingLeft="10sp"
+             android:paddingRight="10sp"/>
+
+   <EditText
+       android:id="@+id/editThem"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:inputType="textCapWords"
+       android:paddingLeft="10sp"
+       android:paddingRight="10sp" >
+
+       <requestFocus />
+   </EditText>
+   
+   <TextView android:text="@string/location" 
+             android:layout_height="wrap_content" 
+             android:layout_width="fill_parent"
+             android:paddingLeft="10sp"
+             android:paddingRight="10sp"
+             android:layout_marginTop="20sp"/>
+   <EditText android:id="@+id/gameLocation"
+             android:paddingLeft="10sp"
+             android:paddingRight="10sp"
+             android:layout_width="fill_parent" 
+             android:layout_height="wrap_content"
+             android:inputType="textCapWords"/>
+      
+   <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/gameID"
+             android:layout_width="0dip"
+             android:layout_height="wrap_content"
+             android:visibility="gone">
+   </TextView>
+
+   <LinearLayout android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="40sp">
+      <Button android:text="@string/ok" 
+              android:id="@+id/ok" 
+              android:layout_weight="1" 
+              android:layout_height="wrap_content"
+              android:layout_width="0sp"/>
+   </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+   <TextView android:text="@string/welcome"
+             android:id="@+id/Welcome01" 
+             android:layout_width="fill_parent" 
+             android:layout_height="wrap_content"
+             android:gravity="center_horizontal"
+             android:textSize="30sp"
+             android:textColor="#FFFFFF"
+             android:typeface="serif"
+             android:textStyle="italic"
+             android:paddingTop="10sp"
+             android:layout_weight="1"/>
+             
+   <LinearLayout android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center_vertical|center_horizontal"
+                 android:orientation="vertical"
+                 android:layout_weight="2">
+      <Button android:id="@+id/startGame" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content"
+              android:drawableTop="@drawable/soccer_field8aaa3d"
+              android:background="@drawable/black_background"/>
+   </LinearLayout>
+
+   <LinearLayout android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content"
+                 android:gravity="center_vertical|center_horizontal"
+                 android:layout_marginBottom="0sp"
+                 android:layout_weight="1">
+      <Button android:id="@+id/roster" 
+              android:layout_width="100sp" 
+              android:layout_height="100sp"
+              android:drawableTop="@drawable/roster3_48"
+              android:text="@string/teamsPlayersGames"
+              android:textSize="12sp"/>
+      <!-- Spacer -->
+      <View   android:id="@+id/buttons_spacer_left"
+              android:layout_width="20sp"
+              android:layout_height="0sp"/>
+      <Button android:id="@+id/help" 
+              android:layout_width="100sp" 
+              android:layout_height="100sp"
+              android:drawableTop="@drawable/help96"
+              android:text="@string/help"
+              android:textSize="12sp"/>
+   </LinearLayout>
+</LinearLayout>

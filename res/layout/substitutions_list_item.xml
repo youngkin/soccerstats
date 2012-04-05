@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:stretchColumns="*">  <!-- stretchColumns needed to prevent
+              TableLayout from unilaterally deciding to shrink the column
+              width and thereby causing text to wrap. -->
+   <TableRow>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/playerJerseyNumber"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:textColor="#E5E5E5"
+                android:layout_weight="0.5"
+                android:gravity="right">
+      </TextView>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/playerName"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:textColor="#E5E5E5"
+                android:layout_weight="1">
+      </TextView>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/timeInState"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:textColor="#E5E5E5"
+                android:layout_weight="1"
+                android:gravity= "right">
+      </TextView>
+      <ToggleButton android:id="@+id/onFieldToggle"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:textOn="@string/onField"
+                    android:textOff="@string/offField"
+                    android:onClick="subClickHandler"/>
+   </TableRow>
+</TableLayout>

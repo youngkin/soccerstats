@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.oss.soccerstats"
+      android:versionCode="15"
+      android:versionName="3.1.0">
+      
+    <supports-screens android:smallScreens="false"/>
+    <uses-sdk android:minSdkVersion="4"
+              android:targetSdkVersion="10" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <application android:icon="@drawable/black_white_soccer_ball2" 
+                 android:label="@string/app_name"
+                 android:debuggable="false">
+                 
+        <provider android:name="com.oss.soccerstats.data.SoccerStatsProvider"
+            android:authorities="com.oss.soccerstats.data.SoccerStatsDataHelper"
+        />
+
+        <activity android:name=".view.MainActivity"
+                  android:label="@string/app_name"
+                  android:configChanges="orientation"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".view.HelpActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action   android:name="com.oss.soccerstats.intent.HELP" />
+                <category android:name="com.oss.soccerstats.intent.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".view.PlayGameActivity"
+                  android:label="@string/app_name"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.oss.soccerstats.intent.PLAY_GAME" />
+                <category android:name="com.oss.soccerstats.intent.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".view.RosterActivity"
+                  android:label="@string/app_name"
+                  android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="com.oss.soccerstats.intent.ROSTER" />
+                <category android:name="com.oss.soccerstats.intent.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".view.GamesSummaryActivity"
+                  android:label="@string/app_name"
+                  android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="com.oss.soccerstats.intent.ROSTER" />
+                <category android:name="com.oss.soccerstats.intent.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".view.GameStatsSummaryActivity"
+                  android:label="@string/app_name"
+                  android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="com.oss.soccerstats.intent.GAME_STATS_SUMMARY" />
+                <category android:name="com.oss.soccerstats.intent.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".view.TeamActivity"
+                  android:label="@string/app_name"
+                  android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="com.oss.soccerstats.intent.TEAMS" />
+                <category android:name="com.oss.soccerstats.intent.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".view.TeamDetailsActivity"
+                  android:label="@string/app_name"
+                  android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="com.oss.soccerstats.intent.TEAM_DETAILS" />
+                <category android:name="com.oss.soccerstats.intent.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".view.PlayerStats"
+                  android:label="@string/app_name"
+                  android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="com.oss.soccerstats.intent.SHOW_PLAYER_STATS" />
+                <category android:name="com.oss.soccerstats.intent.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".view.WelcomeTab" />
+        <activity android:name=".view.GameClockTab" />
+        <activity android:name=".view.StatsTab" />
+        <activity android:name=".view.GameOverTab" />
+        <activity android:name=".view.HelpAboutTab" />
+        
+    </application>
+
+
+</manifest> 

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!--  ============ Common =============================================== -->
+   <string name="app_name">SoccerStats</string>
+   <string name="mainTitle">SoccerStats</string>
+   <string name="version">v3.1.0</string>
+   <string name="dateFormat">MM/dd/yy</string>
+
+   <string name="ok">OK</string>
+   <string name="cancel">Cancel</string>
+   <string name="dismiss">Dismiss</string>
+   <string name="yes">Yes</string>
+   <string name="no">No</string>
+   <string name="help">Help</string>
+   
+   <string name="addPlayer">Add player</string>
+   <string name="deletePlayer">Delete player</string>
+   <string name="editPlayer">Edit player</string>
+   <string name="editGame">Edit game</string>
+   <string name="deleteGame">Delete game</string>
+   <string name="addTeam">Add team</string>
+   <string name="deleteTeam">Delete team</string>
+   <string name="editTeam">Edit team</string>
+   
+
+   <string name="against">Against</string>
+   <string name="anonymous">Other</string>
+   <string name="date">Date</string>
+   <string name="goal">Goal</string>
+   <string name="jerseySymbol">#</string>
+   <string name="noShowAgain">Don\'t show again</string>
+   <string name="playerName">Name</string>
+   <string name="score">Score</string>
+   <string name="SOG">SOG</string>
+   <string name="them">Them</string>
+   <string name="us">Us</string>
+
+   <!--  ============ Main ================================================= -->
+   <string name="welcome">Welcome to SoccerStats!</string>
+    <string name="startGame">Start game</string>
+    <string name="teamsPlayersGames">Teams, Players, &amp; Games</string>
+
+   <!--  ============ Init/Edit Game Dialog =================================== -->
+   <string name="location">Game location</string>
+   <string name="ourTeamName">Our team name</string>
+   <string name="chooseOurTeam">Choose our team</string>
+   <string name="theirTeamname">Their team name</string>
+   <string name="editGameTitle">Edit game details</string>
+   <string name="editDeleteGameTitle">Edit or delete game</string>
+   <string name="deleteGameMsg">Delete game?</string>
+   <string name="gameDate">Game date</string>
+   <string name="newGameTitle">New game</string>
+   
+   <!--  ============ Edit Player Dialog =================================== -->
+   <string name="jerseyNumber">Jersey number</string>
+   <string name="saveAndNew">New player</string>
+
+   <!--  ============ Edit Team Dialog ===================================== -->
+   <string name="saveAndNewTeam">New team</string>
+
+   <!--  ============ GamePlay Screen ====================================== -->
+   <string name="gamePlayTitle">SoccerStats - Playing game</string>
+   <string name="firstHalf">1st</string>
+   <string name="secondHalf">2nd</string>
+   <string name="endGame">End</string>
+   <string name="resumeHalf">Resume</string>
+   <string name="gameOverGame">Game</string>
+   <string name="gameOverOver">over!</string>
+   <string name="subs">Substitutions</string>
+   <string name="startTime">Start</string>
+   <string name="timePlayed">00:00</string>
+   <string name="endGameMsg">Do you want to end the game?</string>
+   <string name="onField">On field</string>
+   <string name="offField">Off field</string>
+
+   <string name="ShotsOnGoal">SOG</string>
+   <string name="time">Time</string>
+   <string name="stats">Statistics</string>
+   <string name="stopTime">Stop</string>
+   <string name="half">Half</string>
+   <string name="shots">Goals/Shots</string>
+   <string name="gameClock">Game Clock</string>
+
+   <string name="noPlayers">No players defined</string>
+   <string name="noPlayersMsg">
+   There are no players assigned to the team roster. Touch OK to add players, or
+   Cancel to continue to game play without the ability to track player level
+   statistics.
+   </string>
+
+
+   <!--  ============ Player Stats Screen ================================== -->
+   <string name="playerStatsTitle">SoccerStats - Player Statistics</string>
+   <string name="playerTimeOnField">Time</string>
+   <string name="playerGoals">G</string>
+   <string name="playerSogs">SOG</string>
+   <string name="playerAssists">A</string>
+   <string name="playerSaves">SV</string>
+   <string name="goalsAgainst">GA</string>
+   
+   <string name="testJerseyNo">44</string>
+   <string name="testPlayerName">Keyleah</string>
+   <string name="testPlayerStats">99</string>
+
+   <!--  ============ Roster Screen ======================================== -->
+   <string name="RosterTitle">SoccerStats - Player Roster</string>
+   <string name="addNewPlayer">Press \'Menu\' to add a new player...</string>
+   <string name="confirmDeletePlayer">Delete player?</string>
+
+   <!--  ============ Score/SOG Dialog ===================================== -->
+   <string name="whichTeam">Which team?</string>
+   <string name="goalDetails">Goal details</string>
+   <string name="sogDetails">Shot On Goal details</string>
+   <string name="scoredBy">Scored by</string>
+   <string name="assistedBy">Assisted by</string>
+   <string name="sogBy">Shot On Goal by</string>
+   <string name="sogSavedBy">Saved by</string>
+   <string name="goalAllowedBy">Goal allowed by</string>
+   <string name="undoLastEvent">Undo last event</string>
+
+   <string name="themDetails">\"Them\" details</string>
+   <string name="usDetails">\"Us\" details</string>
+   <string name="whatHappened">What happened?</string>
+   <string name="sogDetailsThem">Shot On Goal (Saved by)</string>
+
+   <!--  ============ Team Screen ========================================== -->
+   <string name="teamTitle">SoccerStats - Teams</string>
+   <string name="teamName">Team name</string>
+   <string name="seasonName"></string>
+   <string name="confirmDeleteTeam">Delete team?</string>
+   
+   <!--  ============ Team Details Screen ================================== -->
+   <string name="playersTab">Players</string>
+   <string name="gamesTab">Games</string>
+
+   <!--  ============ Games Screen ========================================= -->
+   <string name="testDate">88/88/88</string>
+   <string name="testTeamName">SomeLongName</string>
+   <string name="testGameScore">88-88</string>
+   <string name="testGameSog">88-88</string>
+
+   <!--  ============ Game Stats =========================================== -->
+   <string name="finalScore">Final Score</string>
+   <string name="gameStatusSummaryTitle">SoccerStats - Summary Game Statistics</string>
+   <string name="playerStats">Player Statistics</string>
+   <string name="shotsOnGoal">Shots on Goal</string>
+   <string name="testScoreHeaderText">April 20, 2011 - Red v. Real</string>
+   <string name="testGameLocation">Littleton Stadium</string>
+
+   <!--  ============ Help Screen ========================================== -->
+    <string name="startGameTab">Start game</string>
+    <string name="welcomeTab">Welcome</string>
+    <string name="clockTab">Game</string>
+    <string name="statsTab">Stats</string>
+    <string name="gameOverTab">End game</string>
+    <string name="helpAboutTab">About</string>
+
+   <!--  ============ Help Tabs ============================================ -->
+    <string name="gamePlayText">
+"The game is started by pressing the <b>Start</b> button at the top of the 
+game page.  This starts the clock, which will then count up the minutes and 
+seconds in each half.  The clock can be stopped and restarted as many times as 
+you like by pressing the button displaying the time." 
+"<br/>"
+"Several game management activities can be performed by pressing the device\'s 
+<b>Menu</b> button.  These include:
+<b>1) Undo last event</b> - e.g., to undo a mistaken shot on goal;
+<b>2) Add player</b> - supports adding a new player to the roster during a game;
+<b>3) Edit game</b> - supports changing game level information such as game location,
+our team name, and their team name;
+<b>4) Help</b> - to access game time help information (i.e., this help info)"
+"<br/>"
+"Player time can be captured by utilizing <b>Substitutions</b>.  Press the
+<b>Off field/On field</b> button to indicate whether a player is on the bench 
+or playing.  On/off field times will be recorded for every player in the roster.  
+Players are sorted first by whether they are on or off the field, then by the 
+amount of time they have been on or off the field, and finally by jersey number."
+"<br/>"
+"The 2nd half can be started by: 1) stopping the clock, 2) pressing the 
+<b>1st</b> half button to change halves, and 3) pressing the <b>Start</b> button
+to start the clock for the second half. Reverting back to the first half can be 
+accomplished as long as the 2nd half game clock hasn\'t been started.  To undo  
+switching to the 2nd half, press the <b>2nd</b> half button.  The half will be 
+changed back to the 1st half, and the clock can be restarted from where it was
+last stopped."
+"<br/>"
+"Once the game clock is running Goals and Shots on Goal can be recorded. 
+Simply press the <b>Score</b> or <b>SOG</b> button and specify the details as
+prompted by the app."
+"<br/>"
+"Correcting a data entry error, such as mistakenly pressing the 
+<b>Score</b> button, can be accomplished by pressing and holding the associated 
+button until the associated statistic is reset to its previous value."
+"<br/>"
+"The game can be ended by: 1) stopping the clock, and 2) pressing the
+<b>2nd</b> half button to end the game.  The 2nd half can be restarted if desired,
+by pressing the <b>Resume</b> button and restarting the clock.  The game
+statistics are finalized by pressing the <b>End?</b> button.  At this point the
+game\'s summary statistics will be shown.  Pressing the device\'s back button
+will navigate back to the game and main application screens."
+    </string>
+    
+    <string name="playerStatsText">
+"The following abbreviations are used on the <i>\'Player statistics\'</i> screen:"
+"<ol>"
+"<li><b>Time</b> - Time on field</li><br/>"
+"<li><b>G</b> - Goal</li><br/>"
+"<li><b>SOG</b> - Shots on goal</li><br/>"
+"<li><b>A</b> - Assists</li><br/>"
+"<li><b>SV</b> - Saves</li><br/>"
+"<li><b>GA</b> - Goals against (keeper)</li><br/>"
+"</ol>"
+    </string>
+
+</resources>

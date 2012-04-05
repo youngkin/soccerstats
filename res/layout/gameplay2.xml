@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/playGameViewContainer">
+              
+   <!-- Summary data -->
+<!--  <TableLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#E5E5E5"> 
+ -->
+   <LinearLayout android:orientation="horizontal"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/black_gradientf"> 
+      <Button android:id="@+id/score"
+              android:text="@string/score" 
+              android:layout_width="0sp" 
+              android:layout_height="fill_parent"
+              android:gravity="center"
+              android:textSize="17sp"
+              android:layout_weight="1"
+              android:layout_gravity="center_vertical"
+              android:layout_marginTop="2sp"/>
+      <!-- Half indicator/selector -->
+      <Button android:id="@+id/whichHalf"
+              android:layout_width="0dip"
+              android:layout_height="fill_parent"
+              android:text="@string/firstHalf"
+              android:layout_gravity="center"
+              android:textSize="22sp"
+              android:layout_weight="1"
+              android:layout_marginTop="2dip"/>
+      <!-- Game clock -->
+      <Button android:text="@string/timePlayed" 
+              android:id="@+id/timePlayed" 
+              android:layout_width="0sp" 
+              android:layout_height="fill_parent"
+              android:layout_gravity="center"
+              android:textSize="22sp"
+              android:layout_weight="1"
+              android:layout_marginTop="2sp"/>  
+      <Button android:id="@+id/SOG"
+              android:text="@string/SOG" 
+              android:layout_width="0sp" 
+              android:layout_height="fill_parent"
+              android:gravity="center"
+              android:textSize="17sp"
+              android:layout_weight="1"
+              android:layout_marginTop="2sp"/>
+   </LinearLayout>
+
+   <!-- Section Header - Substitutions -->
+   <TextView android:id="@+id/subsSectionTitle"
+             android:text="@string/subs"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:gravity="top"
+             android:textSize="17sp"
+             android:textColor="#E5E5E5"
+             android:textStyle="bold"
+             android:background="@drawable/black_gradientf"
+             android:paddingLeft="5sp"/>
+   <ListView android:id="@+id/subsView"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:paddingTop="10sp"
+             android:persistentDrawingCache="animation|scrolling"
+             android:layoutAnimation="@anim/subs_layout_controller"/>
+</LinearLayout>

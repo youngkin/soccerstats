@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+   <TextView android:layout_width="fill_parent" 
+             android:layout_height="wrap_content" 
+             android:text="@string/whichTeam" 
+             android:textSize="17sp"
+             android:layout_gravity="center_horizontal" 
+             android:paddingLeft="10sp"
+             android:paddingRight="10sp"
+             android:textColor="#E5E5E5"/>
+   <RadioGroup android:gravity="left"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:paddingLeft="10sp"
+               android:paddingRight="10sp"
+               android:id="@+id/radioGroup">
+      <RadioButton android:id="@+id/chooseUs"
+                   android:text="@string/us"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingRight="10sp"/>
+      <RadioButton android:id="@+id/chooseThem"
+                   android:text="@string/them"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>         
+   </RadioGroup>
+
+   <TextView android:text="@string/scoredBy" 
+             android:id="@+id/spinner1Text" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content"
+             android:paddingLeft="10sp"
+             android:layout_marginTop="20sp" 
+             android:visibility="gone"/>
+   <Spinner android:id="@+id/spinner1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:visibility="gone"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"/>
+   <TextView android:text="@string/assistedBy" 
+             android:id="@+id/spinner2Text" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:visibility="gone"
+             android:paddingLeft="10sp"/>
+   <Spinner android:id="@+id/spinner2" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:visibility="gone"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"/>
+
+   <LinearLayout android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="20sp">
+      <Button android:text="@string/ok" 
+              android:id="@+id/ok" 
+              android:layout_weight="1" 
+              android:layout_height="wrap_content"
+              android:layout_width="0sp"
+              android:enabled="false"/>
+      <Button android:text="@string/cancel" 
+              android:id="@+id/cancel" 
+              android:layout_weight="1" 
+              android:layout_height="wrap_content"
+              android:layout_width="0sp"/>
+   </LinearLayout>
+</LinearLayout>

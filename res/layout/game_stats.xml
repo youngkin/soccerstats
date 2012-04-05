@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/playGameViewContainer">
+              
+   <!-- Score & SOG -->
+   <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:orientation="horizontal"
+                 android:layout_width="fill_parent" 
+                 android:layout_height="95dip">
+      <!--  Date and teams -->
+      <TableRow android:layout_marginTop="5dip" 
+                android:layout_marginBottom="-5dp"
+                android:layout_height="fill_parent">
+         <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                   android:id="@+id/scoreHeader" 
+                   android:text="@string/testScoreHeaderText"
+                   android:gravity="center" 
+                   android:layout_weight="1"
+                   android:layout_height="fill_parent"
+                   android:layout_width="fill_parent" 
+                   android:singleLine="true"
+                   style="@style/ContentTextSmall">
+         </TextView>
+      </TableRow>
+      
+      <!-- Game location -->
+      <TableRow android:layout_height="fill_parent">
+         <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                   android:id="@+id/gameLocation"
+                   android:text="@string/testGameLocation"
+                   style="@style/ContentTextSmall"
+                   android:layout_weight="1"
+                   android:gravity="center" 
+                   android:singleLine="true">
+         </TextView>
+      </TableRow>
+      
+      <!-- Score and SOG headers -->
+      <TableRow android:layout_marginTop="5dip"
+                android:layout_height="fill_parent">
+         <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                   android:text="@string/finalScore"
+                   style="@style/ContentTextSmall"
+                   android:layout_weight="1"
+                   android:gravity="center">
+         </TextView>
+         <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                   style="@style/ContentTextSmall"
+                   android:layout_weight="1"
+                   android:text="@string/shotsOnGoal"
+                   android:gravity="center"
+                   android:layout_height="fill_parent">
+         </TextView>
+      </TableRow>
+      
+      <!-- Score and SOG values -->
+      <TableRow android:layout_marginTop="-5dip"
+                android:layout_marginBottom="15dip"
+                android:layout_height="fill_parent">
+         <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                   android:text="@string/testGameScore"
+                   style="@style/ContentTextSmall"
+                   android:layout_weight="1"
+                   android:gravity="center" 
+                   android:id="@+id/gameStatsScore" 
+                   android:layout_height="fill_parent">
+         </TextView>
+         <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                   style="@style/ContentTextSmall"
+                   android:layout_weight="1"
+                   android:text="@string/testGameSog"
+                   android:gravity="center" 
+                   android:id="@+id/gameStatsSOG" 
+                   android:layout_height="fill_parent">
+         </TextView>
+      </TableRow>
+   </TableLayout>
+
+   <!-- Section Header - Player stats for game -->
+   <TextView android:text="@string/playerStats"
+             android:layout_width="fill_parent"
+             android:gravity="center_vertical"
+             style="@style/HeaderText"
+             android:background="@drawable/black_gradientf"
+             android:paddingLeft="5sp" 
+             android:layout_height="40dip"/>
+   <ListView android:id="@+id/playerStatsView"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:paddingTop="1dp"
+             android:persistentDrawingCache="animation|scrolling"
+             android:layoutAnimation="@anim/subs_layout_controller"/>
+</LinearLayout>
