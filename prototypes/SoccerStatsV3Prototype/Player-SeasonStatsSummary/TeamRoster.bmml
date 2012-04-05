@@ -1,0 +1,160 @@
+<mockup version="1.0" skin="sketch" measuredW="407" measuredH="574">
+  <controls>
+    <control controlID="88" controlTypeID="com.balsamiq.mockups::PointyButton" x="289" y="488" w="37" h="-1" measuredW="37" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SearchIcon%7Cxsmall</icon>
+        <text/>
+        <direction>center</direction>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="89" controlTypeID="com.balsamiq.mockups::PointyButton" x="336" y="490" w="37" h="-1" measuredW="37" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>center</direction>
+        <icon>JumpBackIcon%7Cxsmall</icon>
+        <href>Teams.bmml</href>
+        <text/>
+        <color>6710886</color>
+        <size>9</size>
+      </controlProperties>
+    </control>
+    <control controlID="90" controlTypeID="com.balsamiq.mockups::PointyButton" x="298" y="522" w="62" h="-1" measuredW="37" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>9</size>
+        <icon>BackSpaceIcon%7Cxsmall</icon>
+        <text/>
+        <direction>center</direction>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="__group__" x="140" y="134" w="229" h="20" measuredW="229" measuredH="20" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="48" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="1" w="229" h="19" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="53">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>15790322</color>
+          </controlProperties>
+        </control>
+        <control controlID="49" controlTypeID="com.balsamiq.mockups::Label" x="179" y="0" w="48" h="20" measuredW="51" measuredH="22" zOrder="1" locked="false" isInGroup="53">
+          <controlProperties>
+            <text>8%3A30%20PM</text>
+            <color>0</color>
+            <size>11</size>
+          </controlProperties>
+        </control>
+        <control controlID="50" controlTypeID="com.balsamiq.mockups::Icon" x="118" y="2" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="2" locked="false" isInGroup="53">
+          <controlProperties>
+            <icon>ThreeGIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="51" controlTypeID="com.balsamiq.mockups::Icon" x="138" y="2" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="3" locked="false" isInGroup="53">
+          <controlProperties>
+            <icon>CellBarsIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="52" controlTypeID="com.balsamiq.mockups::Icon" x="158" y="2" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="4" locked="false" isInGroup="53">
+          <controlProperties>
+            <icon>BatteryIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="118" controlTypeID="com.balsamiq.mockups::HRule" x="143" y="245" w="198" h="-1" measuredW="100" measuredH="5" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>5000268</color>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Label" x="141" y="150" w="228" h="25" measuredW="214" measuredH="25" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>SoccerStats%2C%20Red%20-%20Spring%202011</text>
+        <color>0</color>
+      </controlProperties>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Canvas" x="138" y="150" w="231" h="26" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::TabBar" x="138" y="176" w="231" h="304" measuredW="200" measuredH="100" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Players%2CGames</text>
+        <color>0</color>
+        <selectedIndex>0</selectedIndex>
+      </controlProperties>
+    </control>
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::Label" x="154" y="253" w="129" h="23" measuredW="51" measuredH="25" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>PlayerSeasonDetails.bmml</href>
+        <text>22%20Erin</text>
+        <color>15790322</color>
+      </controlProperties>
+    </control>
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::HRule" x="143" y="291" w="198" h="-1" measuredW="100" measuredH="5" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>5000268</color>
+      </controlProperties>
+    </control>
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::iPhone" x="115" y="54" w="282" h="510" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="85" controlTypeID="com.balsamiq.mockups::PointyButton" x="137" y="488" w="37" h="-1" measuredW="37" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>HomeIcon%7Cxsmall</icon>
+        <text/>
+        <direction>center</direction>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="86" controlTypeID="com.balsamiq.mockups::PointyButton" x="184" y="490" w="43" h="-1" measuredW="43" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>center</direction>
+        <href>TeamRosterMenu2.bmml</href>
+        <text>menu</text>
+        <color>6710886</color>
+        <size>9</size>
+      </controlProperties>
+    </control>
+    <control controlID="87" controlTypeID="com.balsamiq.mockups::PointyButton" x="146" y="522" w="62" h="-1" measuredW="37" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>9</size>
+        <icon>TelephoneIcon%7Cxsmall</icon>
+        <text/>
+        <direction>center</direction>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="120" controlTypeID="com.balsamiq.mockups::Label" x="154" y="308" w="129" h="23" measuredW="73" measuredH="25" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>44%20Shelley</text>
+        <color>15790322</color>
+        <href>PlayerSeasonSummary.bmml</href>
+      </controlProperties>
+    </control>
+    <control controlID="121" controlTypeID="com.balsamiq.mockups::Webcam" x="308" y="308" w="28" h="24" measuredW="177" measuredH="145" zOrder="18" locked="false" isInGroup="-1"/>
+    <control controlID="122" controlTypeID="com.balsamiq.mockups::HRule" x="143" y="333" w="198" h="-1" measuredW="100" measuredH="5" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>5000268</color>
+      </controlProperties>
+    </control>
+    <control controlID="123" controlTypeID="com.balsamiq.mockups::Label" x="154" y="350" w="129" h="23" measuredW="68" measuredH="25" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>66%20Monica</text>
+        <color>15790322</color>
+        <href>PlayerSeasonSummary.bmml</href>
+      </controlProperties>
+    </control>
+    <control controlID="116" controlTypeID="com.balsamiq.mockups::Webcam" x="308" y="253" w="28" h="24" measuredW="177" measuredH="145" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="117" controlTypeID="com.balsamiq.mockups::Label" x="154" y="213" w="129" h="23" measuredW="75" measuredH="25" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>11%20Amanda</text>
+        <color>15790322</color>
+        <href>PlayerSeasonSummary.bmml</href>
+      </controlProperties>
+    </control>
+    <control controlID="126" controlTypeID="com.balsamiq.mockups::Webcam" x="308" y="349" w="28" h="24" measuredW="177" measuredH="145" zOrder="21" locked="false" isInGroup="-1"/>
+    <control controlID="119" controlTypeID="com.balsamiq.mockups::Icon" x="308" y="213" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CameraIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
